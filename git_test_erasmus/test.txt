@@ -13,3 +13,4 @@ subirlo a github (publish)
 git push origin main
 
 sincronizar cambios
+gghbvfcghjbnv cvg
