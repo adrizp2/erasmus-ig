@@ -1,0 +1,76 @@
+/* selectores combinadores */
+/*combinators*/
+
+
+
+
+/* descendent combinator// combinadores descendientes*/
+
+/*div p{-----} aplica los astilos a todoos los p hijos descendientes directos e indirectos de div*/
+
+
+/*pt toate chestiile din juru lu div*/
+div{
+    background-color: rgb(128, 214, 186);
+}
+/*toate p din juru lu div*/
+div p{
+    color: rgb(47, 133, 120);
+    font-size: 24px;
+}
+
+
+
+/*child combinators// hijo directo*/
+
+/*div > p{---} aplica los estilos a todos los hijos p directos de div*/
+
+div > p{
+    background-color: rgb(255, 169, 206);
+}
+
+
+
+/*next sibling combinator// elemento adyacente*/
+/*div + p{---} aplica los estilos a los parrafos adyacentes de div*/
+
+div +p{
+    background-color: rgb(174, 117, 228);
+    color: greenyellow;
+    padding: 5px;
+}
+
+
+
+/*subsequent-sibling combinators//general de hermanos*/
+/*div ~ p{---} aplica los estilos a todos los parrafos a hermanos de div*/
+div ~ p{
+    font-size: 2em;
+    color: rgb(96, 42, 147);
+}
+
+
+
+/*agrupacion de selectores*/
+/*h3{
+    background-color: beige;
+    color: lightskyblue;
+    padding: 5px;
+}
+h5{
+    background-color: beige;
+    color: lightskyblue;
+    padding: 5px;
+}
+.box{
+    background-color:beige;
+    color: lightskyblue;
+    padding: 5px;
+} 
+*/
+
+h3, h5, .box{
+    background-color: beige;
+    color: lightskyblue;
+    padding: 47px;
+}

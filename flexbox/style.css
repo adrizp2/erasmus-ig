@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*display flex(flexbox)*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(194, 226, 255);
+    width: 100%;
+    height: 349px;
+    align-items: center;/*pune pe mijloc elem*/
+    flex-wrap: wrap; /*daca se micsoreaza pg elem se pun una sub alta*/
+}
+
+.item{
+    background-color: rgb(159, 183, 204);
+    width: 280px;
+    height: 200px;
+    text-align: justify;
+    margin: 6px;
+    padding: 18px;
+    overflow: hidden;
+}

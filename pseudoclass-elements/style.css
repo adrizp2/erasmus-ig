@@ -1,0 +1,47 @@
+/*pseudoclass*/
+
+/*doar cand dai cu mouse u peste*/
+p:hover{
+    color: rgb(193, 142, 240);
+    font-size: 1.2em;
+}
+
+/*cand apesi pe el se schimba culoarea e gen main characyter*/
+input:focus{
+    padding: 16px;
+    background-color: rgb(136, 97, 173);
+    font-size: 1.23em;
+    color: rgb(64, 44, 83);
+}
+
+/*sa stim care e divu*/
+div{
+    width: 100%;
+    background-color: rgb(219, 180, 255);
+    color: rgb(58, 25, 89);
+    padding: 32px;
+}
+
+
+div p:nth-child(3){
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(239, 222, 255);
+}
+
+
+p::first-letter{
+    color: rgb(72, 23, 97);
+    font-size: 13px;
+}
+/*pt primu rand p::first-line{
+    
+} */
+
+p::before{
+    content: "(ˉ﹃ˉ)";
+}
+p::after{
+    content: "🥱";
+}
+::placeholder{color: rgb(104, 80, 129);}

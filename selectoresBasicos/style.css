@@ -1,0 +1,29 @@
+/*selector universal*/
+
+* {
+    background-color: antiquewhite;
+    color: rgb(232, 204, 168);
+}
+
+/* selector de elementos */
+
+header{
+    background-color: rgb(170, 229, 80);
+    color: rgb(237, 255, 191);
+    font-family: cursive;
+}
+
+
+/* selector de clase */
+
+.subtitulo {
+    background-color: rgb(25, 103, 60);
+    color: rgb(96, 227, 157);
+}
+
+/* selector de id */
+#description{
+    background-color: rgb(54, 189, 117);
+    color: rgb(8, 122, 109);
+    font-size: 1.2em;
+}

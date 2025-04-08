@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*h1 h2 h3 .... display por defecto block*/
+h1{
+    background-color: rgb(238, 221, 183);
+    /*padding: 10px;*/
+    padding: 5px 10px 5px 52px; /*top right bottom left*/
+    margin: 10px; /*aka 10px peste tot*/
+    /*margin: 10px 5px   top-bottom right-left*/
+    border: 2px dotted rgb(227, 138, 194);
+}
+/*div display por defecto block*/
+.container{
+    width: 243px;
+    height: 209px;
+    background-color: rgb(246, 187, 211);
+    padding: 10px;
+    border: 2px solid rgb(135, 53, 80);
+    border-radius: 10px 29px 100px 23px;
+    box-shadow: 7px 12px 6px rgba(92, 38, 48, 0.533); /*horizontal vertical si blur*/
+}
+/*a display por defecto es inline*/
+a{
+    background-color: rgb(255, 242, 227);
+    margin-top: 29px;
+    padding: 6px;
+    border-radius: 45px;
+    display: inline-block;
+}
+
+/*button display is inline block for default*/
+button{
+    background-color: rgb(255, 42, 145);
+    width: 234px;
+    margin-top: 12px;
+    padding: 34px;
+    border: none;
+}

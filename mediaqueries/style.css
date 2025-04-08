@@ -1,0 +1,41 @@
+/*media queries*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+header{
+    text-align: center;
+    background-color: rgb(255, 125, 160);
+    color: beige;
+    padding: 12px;
+}
+section{
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(114, 114, 114);
+    margin: 0 auto;
+}
+section article{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 239);
+    padding: 12px;
+    text-align: justify;
+}
+@media(min-width:1024px){
+    h1{
+        background-color: rgb(117, 152, 152);
+        color: rgb(215, 255, 255);
+        font-size: 3em;
+    }
+}
+@media(max-width:640px){
+    h1{
+        background-color: black;
+        color: greenyellow;
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: monospace;
+    font-size: 18px;
+}
+
+header{
+    background-color: rgb(255, 207, 216);
+    color: rgb(255, 57, 120);
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1, h2, h3{
+    padding: 8px;
+    
+}
+section{
+    background-color: rgb(255, 47, 116);
+    padding: 10px;
+    color: rgb(255, 205, 224);
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;/*50px 50px 50px 50px; overlapping*/ /* 1fr 1fr 1fr 1fr; fractions*/
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: auto;
+    background-color: rgb(54, 68, 58);
+}
+
+.item{
+    width: 258px;
+    height: 187px;
+    background-color: rgb(103, 137, 115);
+    color: rgb(186, 214, 189);
+    margin: 17px;
+    padding: 12px;
+    overflow: hidden;
+    border-radius: 24px;
+    border: 2px dotted rgb(185, 195, 185);
+}
+
+/*.container .item:nth-child(2){
+    grid-column: 2/3; puts element 2 between column 2 si 3 ssi ala de mai de jos il pune intre rows 2 si 3
+    grid-row: 2/3;
+}*/
+
+.container .item:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.container .item:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.container .item:nth-child(4){
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
